@@ -1,0 +1,120 @@
+h1{
+    text-align: center;
+    color:#7a2880;
+}
+h2{
+    text-align: center;
+    
+}
+.view{
+    color: white;
+    background-color: #7a2880;    
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    /* float: left; */
+}
+.table{
+      border-collapse:collapse;
+      width: 100%;
+      height:80%;
+      text-align: left;
+      padding: 15px;
+}
+
+tr:nth-child(even) {background-color: #f7f5f7;}
+
+tr{
+    padding:15px;
+    height:50px;
+    margin:80px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #4e1a52;
+}
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 20px;
+    visibility: hidden;
+    border: 1px solid #7a2880;
+
+}
+
+.pagination a {
+    color: #7a2880;
+    /* float: left; */
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    margin: 0 4px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    /* background-color: #7a2880; */
+}
+.active{
+    background-color: #e0b6e3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 25px;
+}
+.pagination a:active {
+    background-color: #7a2880;
+    color: white;
+    border-radius: 5px;
+    }
+    
+.pagination a:hover:not(.active) {
+    background-color: #d8d7d7;
+    border-radius: 5px;
+}
+
+#demo{
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+.heading{
+    font-weight:bolder;
+    font-size: 20px;
+    color: #38053b;
+}
+
+.container{
+    text-align:center;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .pagination {
+        display: inline-block;
+        text-align: center;
+        padding: 7px 5px;
+        visibility: hidden;
+        border: 1px solid #7a2880;
+    
+    }
+
+    .pagination a {
+        color: #7a2880;
+        padding: 5px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        margin: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+}
